@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spatial-Orchestra", "Assembly-CSharp-firstpass.csproj", "{B82858F5-85C7-2BD5-BB70-6C76E3E03DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spatial-Orchestra", "Assembly-CSharp.csproj", "{C791CF37-6EEF-F208-6EC8-C954649E9F28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B82858F5-85C7-2BD5-BB70-6C76E3E03DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82858F5-85C7-2BD5-BB70-6C76E3E03DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82858F5-85C7-2BD5-BB70-6C76E3E03DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82858F5-85C7-2BD5-BB70-6C76E3E03DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C791CF37-6EEF-F208-6EC8-C954649E9F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C791CF37-6EEF-F208-6EC8-C954649E9F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C791CF37-6EEF-F208-6EC8-C954649E9F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C791CF37-6EEF-F208-6EC8-C954649E9F28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
