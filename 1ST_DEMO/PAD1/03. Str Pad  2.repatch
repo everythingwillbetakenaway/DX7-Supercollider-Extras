@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="1.0" >
+<DeviceNameInEnglish>
+    PX7 FM Synthesizer
+</DeviceNameInEnglish>
+<Properties deviceProductID="se.propellerheads.PX7"  deviceVersion="0.9.7" >
+    <Object name="custom_properties" >
+        <Value property="Algorithm"  type="number" >
+            1
+        </Value>
+        <Value property="Feedback"  type="number" >
+            7
+        </Value>
+        <Value property="Transpose"  type="number" >
+            12
+        </Value>
+        <Value property="LFO_Waveform"  type="number" >
+            4
+        </Value>
+        <Value property="LFO_Speed"  type="number" >
+            35
+        </Value>
+        <Value property="LFO_PitchModSens"  type="number" >
+            1
+        </Value>
+        <Value property="LFO_PMD"  type="number" >
+            18
+        </Value>
+        <Value property="LFO_AMD"  type="number" >
+            0
+        </Value>
+        <Value property="LFO_Sync"  type="number" >
+            1
+        </Value>
+        <Value property="LFO_Delay"  type="number" >
+            0
+        </Value>
+        <Value property="Oscillator_Sync"  type="number" >
+            0
+        </Value>
+        <Value property="Pitch_EG_R1_reversed"  type="number" >
+            12
+        </Value>
+        <Value property="Pitch_EG_R2_reversed"  type="number" >
+            5
+        </Value>
+        <Value property="Pitch_EG_R3_reversed"  type="number" >
+            99
+        </Value>
+        <Value property="Pitch_EG_R4_reversed"  type="number" >
+            99
+        </Value>
+        <Value property="Pitch_EG_L1"  type="number" >
+            46
+        </Value>
+        <Value property="Pitch_EG_L2"  type="number" >
+            51
+        </Value>
+        <Value property="Pitch_EG_L3"  type="number" >
+            50
+        </Value>
+        <Value property="Pitch_EG_L4"  type="number" >
+            50
+        </Value>
+        <Value property="OP1_FreqMode"  type="number" >
+            1
+        </Value>
+        <Value property="OP1_FreqCoarse"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_FreqFine"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_Detune"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_KRS"  type="number" >
+            4
+        </Value>
+        <Value property="OP1_EG_R1_reversed"  type="number" >
+            62
+        </Value>
+        <Value property="OP1_EG_R2_reversed"  type="number" >
+            88
+        </Value>
+        <Value property="OP1_EG_R3_reversed"  type="number" >
+            88
+        </Value>
+        <Value property="OP1_EG_R4_reversed"  type="number" >
+            61
+        </Value>
+        <Value property="OP1_EG_L1"  type="number" >
+            99
+        </Value>
+        <Value property="OP1_EG_L2"  type="number" >
+            97
+        </Value>
+        <Value property="OP1_EG_L3"  type="number" >
+            86
+        </Value>
+        <Value property="OP1_EG_L4"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_OutputLevel"  type="number" >
+            99
+        </Value>
+        <Value property="OP1_KLS_LeftDepth"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_KLS_RightDepth"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_KLS_LeftCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_KLS_RightCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_KLS_BreakPoint"  type="number" >
+            0
+        </Value>
+        <Value property="OP1_KeybVelSens"  type="number" >
+            2
+        </Value>
+        <Value property="OP1_LFO_AmplitudeModSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP2_FreqMode"  type="number" >
+            0
+        </Value>
+        <Value property="OP2_FreqCoarse"  type="number" >
+            2
+        </Value>
+        <Value property="OP2_FreqFine"  type="number" >
+            1
+        </Value>
+        <Value property="OP2_Detune"  type="number" >
+            4
+        </Value>
+        <Value property="OP2_KRS"  type="number" >
+            1
+        </Value>
+        <Value property="OP2_EG_R1_reversed"  type="number" >
+            22
+        </Value>
+        <Value property="OP2_EG_R2_reversed"  type="number" >
+            88
+        </Value>
+        <Value property="OP2_EG_R3_reversed"  type="number" >
+            92
+        </Value>
+        <Value property="OP2_EG_R4_reversed"  type="number" >
+            73
+        </Value>
+        <Value property="OP2_EG_L1"  type="number" >
+            99
+        </Value>
+        <Value property="OP2_EG_L2"  type="number" >
+            98
+        </Value>
+        <Value property="OP2_EG_L3"  type="number" >
+            97
+        </Value>
+        <Value property="OP2_EG_L4"  type="number" >
+            0
+        </Value>
+        <Value property="OP2_OutputLevel"  type="number" >
+            76
+        </Value>
+        <Value property="OP2_KLS_LeftDepth"  type="number" >
+            3
+        </Value>
+        <Value property="OP2_KLS_RightDepth"  type="number" >
+            6
+        </Value>
+        <Value property="OP2_KLS_LeftCurve"  type="number" >
+            3
+        </Value>
+        <Value property="OP2_KLS_RightCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP2_KLS_BreakPoint"  type="number" >
+            39
+        </Value>
+        <Value property="OP2_KeybVelSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP2_LFO_AmplitudeModSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_FreqMode"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_FreqCoarse"  type="number" >
+            2
+        </Value>
+        <Value property="OP3_FreqFine"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_Detune"  type="number" >
+            10
+        </Value>
+        <Value property="OP3_KRS"  type="number" >
+            4
+        </Value>
+        <Value property="OP3_EG_R1_reversed"  type="number" >
+            64
+        </Value>
+        <Value property="OP3_EG_R2_reversed"  type="number" >
+            92
+        </Value>
+        <Value property="OP3_EG_R3_reversed"  type="number" >
+            90
+        </Value>
+        <Value property="OP3_EG_R4_reversed"  type="number" >
+            60
+        </Value>
+        <Value property="OP3_EG_L1"  type="number" >
+            99
+        </Value>
+        <Value property="OP3_EG_L2"  type="number" >
+            97
+        </Value>
+        <Value property="OP3_EG_L3"  type="number" >
+            86
+        </Value>
+        <Value property="OP3_EG_L4"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_OutputLevel"  type="number" >
+            99
+        </Value>
+        <Value property="OP3_KLS_LeftDepth"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_KLS_RightDepth"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_KLS_LeftCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_KLS_RightCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_KLS_BreakPoint"  type="number" >
+            0
+        </Value>
+        <Value property="OP3_KeybVelSens"  type="number" >
+            2
+        </Value>
+        <Value property="OP3_LFO_AmplitudeModSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP4_FreqMode"  type="number" >
+            0
+        </Value>
+        <Value property="OP4_FreqCoarse"  type="number" >
+            2
+        </Value>
+        <Value property="OP4_FreqFine"  type="number" >
+            0
+        </Value>
+        <Value property="OP4_Detune"  type="number" >
+            6
+        </Value>
+        <Value property="OP4_KRS"  type="number" >
+            3
+        </Value>
+        <Value property="OP4_EG_R1_reversed"  type="number" >
+            38
+        </Value>
+        <Value property="OP4_EG_R2_reversed"  type="number" >
+            69
+        </Value>
+        <Value property="OP4_EG_R3_reversed"  type="number" >
+            99
+        </Value>
+        <Value property="OP4_EG_R4_reversed"  type="number" >
+            66
+        </Value>
+        <Value property="OP4_EG_L1"  type="number" >
+            99
+        </Value>
+        <Value property="OP4_EG_L2"  type="number" >
+            98
+        </Value>
+        <Value property="OP4_EG_L3"  type="number" >
+            90
+        </Value>
+        <Value property="OP4_EG_L4"  type="number" >
+            0
+        </Value>
+        <Value property="OP4_OutputLevel"  type="number" >
+            87
+        </Value>
+        <Value property="OP4_KLS_LeftDepth"  type="number" >
+            4
+        </Value>
+        <Value property="OP4_KLS_RightDepth"  type="number" >
+            13
+        </Value>
+        <Value property="OP4_KLS_LeftCurve"  type="number" >
+            3
+        </Value>
+        <Value property="OP4_KLS_RightCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP4_KLS_BreakPoint"  type="number" >
+            46
+        </Value>
+        <Value property="OP4_KeybVelSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP4_LFO_AmplitudeModSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_FreqMode"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_FreqCoarse"  type="number" >
+            8
+        </Value>
+        <Value property="OP5_FreqFine"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_Detune"  type="number" >
+            8
+        </Value>
+        <Value property="OP5_KRS"  type="number" >
+            2
+        </Value>
+        <Value property="OP5_EG_R1_reversed"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_EG_R2_reversed"  type="number" >
+            50
+        </Value>
+        <Value property="OP5_EG_R3_reversed"  type="number" >
+            44
+        </Value>
+        <Value property="OP5_EG_R4_reversed"  type="number" >
+            65
+        </Value>
+        <Value property="OP5_EG_L1"  type="number" >
+            99
+        </Value>
+        <Value property="OP5_EG_L2"  type="number" >
+            95
+        </Value>
+        <Value property="OP5_EG_L3"  type="number" >
+            92
+        </Value>
+        <Value property="OP5_EG_L4"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_OutputLevel"  type="number" >
+            58
+        </Value>
+        <Value property="OP5_KLS_LeftDepth"  type="number" >
+            4
+        </Value>
+        <Value property="OP5_KLS_RightDepth"  type="number" >
+            25
+        </Value>
+        <Value property="OP5_KLS_LeftCurve"  type="number" >
+            3
+        </Value>
+        <Value property="OP5_KLS_RightCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_KLS_BreakPoint"  type="number" >
+            38
+        </Value>
+        <Value property="OP5_KeybVelSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP5_LFO_AmplitudeModSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_FreqMode"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_FreqCoarse"  type="number" >
+            3
+        </Value>
+        <Value property="OP6_FreqFine"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_Detune"  type="number" >
+            12
+        </Value>
+        <Value property="OP6_KRS"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_EG_R1_reversed"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_EG_R2_reversed"  type="number" >
+            57
+        </Value>
+        <Value property="OP6_EG_R3_reversed"  type="number" >
+            49
+        </Value>
+        <Value property="OP6_EG_R4_reversed"  type="number" >
+            40
+        </Value>
+        <Value property="OP6_EG_L1"  type="number" >
+            99
+        </Value>
+        <Value property="OP6_EG_L2"  type="number" >
+            99
+        </Value>
+        <Value property="OP6_EG_L3"  type="number" >
+            99
+        </Value>
+        <Value property="OP6_EG_L4"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_OutputLevel"  type="number" >
+            57
+        </Value>
+        <Value property="OP6_KLS_LeftDepth"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_KLS_RightDepth"  type="number" >
+            62
+        </Value>
+        <Value property="OP6_KLS_LeftCurve"  type="number" >
+            3
+        </Value>
+        <Value property="OP6_KLS_RightCurve"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_KLS_BreakPoint"  type="number" >
+            33
+        </Value>
+        <Value property="OP6_KeybVelSens"  type="number" >
+            0
+        </Value>
+        <Value property="OP6_LFO_AmplitudeModSens"  type="number" >
+            0
+        </Value>
+    </Object>
+</Properties>
+</JukeboxPatch>

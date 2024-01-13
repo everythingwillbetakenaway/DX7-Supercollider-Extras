@@ -1,0 +1,85 @@
+<!DOCTYPE patchbay>
+<patchbay name="ambisonic_BFORMAT_2º_3D" version="0.4.2">
+ <output-sockets>
+  <socket exclusive="off" name="Ardour MMC out" type="jack-midi" client="ardour">
+   <plug>MMC out</plug>
+  </socket>
+  <socket exclusive="off" name="SuperCollider Ambisonic" type="jack-audio" client="SuperCollider">
+   <plug>out_3</plug>
+   <plug>out_4</plug>
+   <plug>out_5</plug>
+   <plug>out_6</plug>
+   <plug>out_7</plug>
+   <plug>out_8</plug>
+   <plug>out_9</plug>
+   <plug>out_10</plug>
+   <plug>out_11</plug>
+  </socket>
+  <socket exclusive="off" name="SuperCollider Binaural" type="jack-audio" client="SuperCollider">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+  </socket>
+  <socket exclusive="off" name="ambdec 1" type="jack-audio" client="ambdec">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+   <plug>out_3</plug>
+   <plug>out_4</plug>
+   <plug>out_5</plug>
+   <plug>out_6</plug>
+   <plug>out_7</plug>
+   <plug>out_8</plug>
+  </socket>
+  <socket exclusive="off" name="vlc B-format" type="jack-audio" client="vlc_[0-9]+">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+   <plug>out_3</plug>
+   <plug>out_4</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket exclusive="off" name="a2j 1" type="jack-midi" client="a2j">
+   <plug>SuperCollider \[130\] \(playback\): in0</plug>
+  </socket>
+  <socket exclusive="off" name="jkmeter 1" type="jack-audio" client="jkmeter">
+   <plug>in-1</plug>
+   <plug>in-2</plug>
+   <plug>in-3</plug>
+   <plug>in-4</plug>
+  </socket>
+  <socket exclusive="off" name="system 8channel ambi" type="jack-audio" client="system">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+   <plug>playback_3</plug>
+   <plug>playback_4</plug>
+   <plug>playback_5</plug>
+   <plug>playback_6</plug>
+   <plug>playback_7</plug>
+   <plug>playback_8</plug>
+  </socket>
+  <socket exclusive="off" name="System LF RF" type="jack-audio" client="system">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+  <socket exclusive="off" name="ambdec 1" type="jack-audio" client="ambdec">
+   <plug>in\.0w</plug>
+   <plug>in\.1x</plug>
+   <plug>in\.1y</plug>
+   <plug>in\.1z</plug>
+   <plug>in\.2r</plug>
+   <plug>in\.2s</plug>
+   <plug>in\.2t</plug>
+   <plug>in\.2u</plug>
+   <plug>in\.2v</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable output="Ardour MMC out" input="a2j 1" type="jack-midi"/>
+  <cable output="SuperCollider Ambisonic" input="ambdec 1" type="jack-audio"/>
+  <cable output="SuperCollider Binaural" input="System LF RF" type="jack-audio"/>
+  <cable output="ambdec 1" input="system 8channel ambi" type="jack-audio"/>
+  <cable output="vlc B-format" input="jkmeter 1" type="jack-audio"/>
+  <cable output="vlc B-format" input="ambdec 1" type="jack-audio"/>
+ </cables>
+</patchbay>
+

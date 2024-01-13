@@ -1,0 +1,101 @@
+<!DOCTYPE patchbay>
+<patchbay name="mosca1st_and_2nd" version="0.4.2">
+ <output-sockets>
+  <socket name="Ardour MMC out" exclusive="off" type="jack-midi" client="ardour">
+   <plug>MMC out</plug>
+  </socket>
+  <socket name="SuperCollider 2nd order amb" exclusive="off" type="jack-audio" client="SuperCollider">
+   <plug>out_7</plug>
+   <plug>out_8</plug>
+   <plug>out_9</plug>
+   <plug>out_10</plug>
+   <plug>out_11</plug>
+   <plug>out_12</plug>
+   <plug>out_13</plug>
+   <plug>out_14</plug>
+   <plug>out_15</plug>
+  </socket>
+  <socket name="SuperCollider 1st order amb" exclusive="off" type="jack-audio" client="SuperCollider">
+   <plug>out_3</plug>
+   <plug>out_4</plug>
+   <plug>out_5</plug>
+   <plug>out_6</plug>
+  </socket>
+  <socket name="SuperCollider Binaural" exclusive="off" type="jack-audio" client="SuperCollider">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+  </socket>
+  <socket name="ambdec- 1" exclusive="off" type="jack-audio" client="ambdec-01">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+   <plug>out_3</plug>
+   <plug>out_4</plug>
+   <plug>out_5</plug>
+   <plug>out_6</plug>
+   <plug>out_7</plug>
+   <plug>out_8</plug>
+  </socket>
+  <socket name="ambdec 1" exclusive="off" type="jack-audio" client="ambdec">
+   <plug>out_1</plug>
+   <plug>out_2</plug>
+   <plug>out_3</plug>
+   <plug>out_4</plug>
+   <plug>out_5</plug>
+   <plug>out_6</plug>
+   <plug>out_7</plug>
+   <plug>out_8</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket name="a2j 1" exclusive="off" type="jack-midi" client="a2j">
+   <plug>SuperCollider \[130\] \(playback\): in0</plug>
+  </socket>
+  <socket name="jkmeter 1" exclusive="off" type="jack-audio" client="jkmeter">
+   <plug>in-1</plug>
+   <plug>in-2</plug>
+   <plug>in-3</plug>
+   <plug>in-4</plug>
+  </socket>
+  <socket name="system 8channel ambi" exclusive="off" type="jack-audio" client="system">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+   <plug>playback_3</plug>
+   <plug>playback_4</plug>
+   <plug>playback_5</plug>
+   <plug>playback_6</plug>
+   <plug>playback_7</plug>
+   <plug>playback_8</plug>
+  </socket>
+  <socket name="System LF RF" exclusive="off" type="jack-audio" client="system">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+  <socket name="ambdec 1" exclusive="off" type="jack-audio" client="ambdec">
+   <plug>in\.0w</plug>
+   <plug>in\.1x</plug>
+   <plug>in\.1y</plug>
+   <plug>in\.1z</plug>
+   <plug>in\.2r</plug>
+   <plug>in\.2s</plug>
+   <plug>in\.2t</plug>
+   <plug>in\.2u</plug>
+   <plug>in\.2v</plug>
+  </socket>
+  <socket name="ambdec 2" exclusive="off" type="jack-audio" client="ambdec-01">
+   <plug>in\.0w</plug>
+   <plug>in\.1x</plug>
+   <plug>in\.1y</plug>
+   <plug>in\.1z</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable type="jack-midi" output="Ardour MMC out" input="a2j 1"/>
+  <cable type="jack-audio" output="SuperCollider 2nd order amb" input="ambdec 1"/>
+  <cable type="jack-audio" output="SuperCollider 1st order amb" input="ambdec 2"/>
+  <cable type="jack-audio" output="SuperCollider Binaural" input="System LF RF"/>
+  <cable type="jack-audio" output="ambdec 1" input="system 8channel ambi"/>
+  <cable type="jack-audio" output="ambdec- 1" input="system 8channel ambi"/>
+ </cables>
+</patchbay>
+
